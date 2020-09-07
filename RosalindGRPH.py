@@ -7,7 +7,6 @@ def readFile(filename):
 
 	#open file, create list of lines in txt file
 	#create empty dict to contain seq header + seq
-	line_list = []
 	seq_dict = {}
 	infile = open(filename,"rU")
 	lines = infile.readlines()
